@@ -15,9 +15,10 @@ const Header = () => {
           </div>
 
             <div className='flex'>
-                <span className='border rounded-full px-[10px] text-[12px]'>English</span>
-                <img className='w-[30px] h-[30px] p-1 mx-2 rounded-full' src="https://www.shutterstock.com/shutterstock/photos/1135840925/display_1500/stock-vector-alarm-vector-icon-on-transparent-background-alarm-icon-1135840925.jpg" alt="alerm" />
-                <img className='w-[30px] h-[30px] p-1 bg-yellow-400 rounded-full ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNJASkYCOk4NkuNL1nPTXXIaMaSDEXSOs-qQ&usqp=CAU" alt="support" />
+                <div className='border flex items-center justify-center rounded-full px-1'><img className='w-[16px] h-[16px]' src="https://i.ibb.co/LPtrpLH/lang.png" alt="lang" border="0"></img>
+                <span className=' px-[10px] text-[12px] text-blue-600'>English</span></div>
+                <img className='w-[25px] h-[25px] bg-blue-400 p-1 mx-2 rounded-full' src="https://i.ibb.co/bR2KNML/bell.png" alt="alerm" />
+                <img className='w-[25px] h-[25px] p-1 bg-yellow-400 rounded-full ' src="https://i.ibb.co/HrrNLPz/server.png" alt="support" />
             </div>
         </div>
     );
