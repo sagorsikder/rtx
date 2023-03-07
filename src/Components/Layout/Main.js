@@ -5,7 +5,7 @@ import Header from '../Shared/Header/Header';
 
 const Main = () => {
     return (
-        <div className='lg:mx-[23%]'>
+        <div className='lg:mx-[27%]'>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
