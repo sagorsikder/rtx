@@ -14,6 +14,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Alern></Alern>
+            <TronMillionair></TronMillionair>
             <MainFunction></MainFunction>
             <Help></Help>
             <AmmountShow></AmmountShow>
