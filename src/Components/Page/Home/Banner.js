@@ -14,7 +14,7 @@ function Banner() {
                 {/* <h2 className='font-bold'><span className='text-3xl'>10000</span> <span className=''>TRX</span></h2> */}
             </div>
             <div>
-                <img className='h-24 w-28' src='https://i.ibb.co/rxdZt2M/icon.png'></img>
+                <img className='h-24 w-28' src='https://i.ibb.co/rxdZt2M/icon.png' alt=''></img>
             </div>
          </div>
       </div>
