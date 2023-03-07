@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='flex items-center py-[10px] px-[10px] bg-white justify-between'>
+        <div className='flex items-center py-[10px] px-[10px] bg-white justify-between sticky bottom-0'>
             <div className='flex flex-col justify-center items-center'>
                 <img className='w-[20px] h-[20px]'  src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="home logo" />
                 <p className='text-[13px]'>Home</p>
