@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='flex items-center py-[10px] px-[10px] bg-white justify-between'>
-           <Link to='/'>
-           <div className='flex flex-col justify-center items-center'>
+        <div className='flex items-center py-[10px] px-[10px] bg-white justify-between sticky bottom-0'>
+           <Link to='/'> <div className='flex flex-col justify-center items-center'>
                 <img className='w-[20px] h-[20px]'  src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="home logo" />
                 <p className='text-[13px]'>Home</p>
             </div>

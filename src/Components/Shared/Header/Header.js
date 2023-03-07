@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className='flex py-[10px] px-[10px] bg-white justify-between'>
+        <div className='flex py-[10px] px-[10px] bg-white justify-between sticky top-0'>
            
           <div className='flex'>
           <div className="avatar">
