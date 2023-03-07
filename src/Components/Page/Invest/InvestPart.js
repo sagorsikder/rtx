@@ -1,6 +1,8 @@
 import React from 'react'
 
-function InvestPart() {
+function InvestPart({info}) {
+
+  const {rate,cycle,purchase,profit} = info;
   return (
     <div className='flex rounded-[8px] bg-white m-[8px] p-[12px]'>
         <div className='w-[140px] h-[92px]'>
@@ -8,10 +10,10 @@ function InvestPart() {
         </div>
 
         <div className='ml-[10px]'>
-          <p className='text-[#2E82A5] text-[14px]'>Daily rate: <span className='font-bold text-[14px] text-[#12B298]'>19.00%</span> </p>
-          <p  className='text-[#2E82A5] text-[14px]'>Cycle: <span className='font-bold text-[14px] text-[#3783A1]'>100 Day</span> </p>
-          <p  className='text-[#2E82A5] text-[14px]'>Number of purchase: <span className='font-bold text-[14px] text-[#3783A1]'>10</span> </p>
-          <p  className='text-[#2E82A5] text-[14px]'>Profit Type: Principal and interest due</p>
+          <p className='text-[#2E82A5] text-[14px]'>Daily rate: <span className='font-bold text-[14px] text-[#12B298]'>{rate}</span> </p>
+          <p  className='text-[#2E82A5] text-[14px]'>Cycle: <span className='font-bold text-[14px] text-[#3783A1]'>{cycle}</span> </p>
+          <p  className='text-[#2E82A5] text-[14px]'>Number of purchase: <span className='font-bold text-[14px] text-[#3783A1]'>{purchase}</span> </p>
+          <p  className='text-[#2E82A5] text-[14px]'>Profit Type: {profit}</p>
         </div>
       </div>
   )
