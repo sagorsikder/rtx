@@ -50,8 +50,8 @@ function Mine() {
   ]
   return (
     <div>
-      <div className='bg-white mx-2 rounded-md h-44 p-6 mt-3'>
-      <div className='bg-cyan-800 rounded-2xl shadow-lg shadow-cyan-800/75 py-4'>
+      <div className='bg-blue-100 mx-2 rounded-md h-44 p-6 mt-3'>
+      <div className='bg-violet-800 rounded-2xl shadow-lg shadow-cyan-800/75 py-4'>
          <div className='flex justify-between items-center text-white'>
             <div className='pl-4 py-8'>
                 <div className='items-center'>
@@ -78,7 +78,7 @@ function Mine() {
       </div>
       <div className='flex space-x-2 items-center'>
       <img className='h-10' src="https://i.ibb.co/xm79fd9/tikuan-1.png" alt="tikuan-1"></img>
-         <h2>Withdrowal</h2>
+         <h2>Withdrawal</h2>
       </div>
     </div>
 
@@ -87,7 +87,7 @@ function Mine() {
       <div className='grid grid-cols-2 lg:grid-cols-3 text-center pb-12'>
         {
           serviceData.map((data) => (
-            <div className='bg-white rounded-lg pb-4'>
+            <div className='bg-blue-100 m-2 rounded-lg pb-4'>
                 <img className='mx-auto h-12 mt-2' src={data.img} alt="lirun"></img>
                 <h2 className='text-black mt-1'>{data.name}</h2>
             </div>

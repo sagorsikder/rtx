@@ -4,7 +4,7 @@ function InvestPart({info}) {
 
   const {rate,cycle,purchase,profit} = info;
   return (
-    <div className='flex rounded-[8px] bg-white m-[8px] p-[12px]'>
+    <div className='flex rounded-[8px] bg-blue-100 m-[8px] p-[12px]'>
         <div className='w-[140px] h-[92px]'>
         <img className='w-full h-full' src='https://i.ibb.co/8KQBWsB/Logo.png' alt='logo'/>
         </div>

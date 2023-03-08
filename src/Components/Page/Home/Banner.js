@@ -2,8 +2,8 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className='bg-white mx-2 rounded-md h-44 p-6 mt-3'>
-      <div className='bg-cyan-800 rounded-2xl shadow-lg shadow-cyan-800/75'>
+    <div className='bg-blue-100 mx-2 rounded-md h-44 p-6 mt-3'>
+      <div className='bg-violet-800 rounded-2xl shadow-lg shadow-cyan-800/75'>
          <div className='flex justify-between items-center text-white'>
             <div className='pl-4 py-8'>
                 <h2 className='mb-2'>Total Balance</h2>

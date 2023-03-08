@@ -2,7 +2,7 @@ import React from 'react'
 
 function TronMillionair() {
   return (
-    <div className='bg-white mx-2 mb-8 mt-4 rounded-md'>
+    <div className='bg-blue-100 mx-2 mb-8 mt-4 rounded-md'>
       <div className='pb-8'>
           <h2 className='pt-4 text-xl text-center font-bold'>Join to be a TRON Millionaire</h2>
           <h2 className='mt-2 text-center text-blue-500 text-sm'>Use cloud mining and Defi technology to ensure that all users get the most revenue.</h2>

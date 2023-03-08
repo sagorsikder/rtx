@@ -17,8 +17,8 @@ const Header = () => {
             <div className='flex'>
                 <div className='border flex items-center justify-center rounded-full px-1'><img className='w-[16px] h-[16px]' src="https://i.ibb.co/LPtrpLH/lang.png" alt="lang" border="0"></img>
                 <span className=' px-[10px] text-[12px] text-blue-600'>English</span></div>
-                <img className='w-[25px] h-[25px] bg-blue-400 p-1 mx-2 rounded-full' src="https://i.ibb.co/bR2KNML/bell.png" alt="alerm" />
-                <img className='w-[25px] h-[25px] p-1 bg-yellow-400 rounded-full ' src="https://i.ibb.co/HrrNLPz/server.png" alt="support" />
+                <img className='w-[25px] h-[25px] bg-red-400 p-1 mx-2 rounded-full' src="https://i.ibb.co/bR2KNML/bell.png" alt="alerm" />
+                <img className='w-[25px] h-[25px] p-1 bg-green-400 rounded-full ' src="https://i.ibb.co/HrrNLPz/server.png" alt="support" />
             </div>
         </div>
     );

@@ -19,7 +19,7 @@ const SignUp = () => {
     return (
         <div className="hero w-full">
             <div>
-                <div className=" w-full shadow-2xl bg-base-100 py-20 ">
+                <div className=" w-full shadow-2xl bg-blue-100 py-20 ">
                     <h1 className="text-5xl text-center font-bold">SignUp</h1>
                     <form onSubmit={handleSignUp} className="card-body">
                         <div className="form-control">
